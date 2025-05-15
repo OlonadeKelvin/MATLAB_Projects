@@ -1,3 +1,5 @@
+**Differential Equations Visualizer**
+
 This tool allows users to input up to three coupled differential equations in MATLAB function form (e.g., x(2), -4*x(1), x(1)*x(2) - (8/3)*x(3)), specify the time range, select initial conditions based on the system type (first-order, second-order, or Lorenz system), and choose a numerical solver (e.g., ode45, ode23, etc.).
 
 The app dynamically generates the function, solves the system using the selected solver, and plots the output by mapping variables such as x1, x2, x3, and Time to the user’s selected axes. It provides real-time feedback and error alerts for invalid input or dimension mismatches.
